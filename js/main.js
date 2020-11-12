@@ -1,16 +1,16 @@
-function tabuada() {
+function multiplicationTable() {
     let num = document.getElementById("number-input");
     let tab = document.getElementById("multiplication-table");
 
     if (num.value.length == 0) {
-        window.alert("Digite um número!");
+        window.alert("Enter a number!");
     } else {
-        let n = Number(num.value);
+        let numberInput = Number(num.value);
         tab.innerHTML = "";
 
-        for (let contador = 1; contador <= 10; contador++) {
+        for (let counter = 1; counter <= 10; counter++) {
             let item = document.createElement("tr");
-            item.text = `${n} x ${contador} = ${n * contador}`;
+            item.text = `${numberInput} x ${counter} = ${numberInput * counter}`;
             tab.appendChild(item);
         }
     }
