@@ -10,7 +10,7 @@ function multiplicationTable() {
 
         for (let counter = 1; counter <= 10; counter++) {
             let item = document.createElement("tr");
-            item.text = `${numberInput} x ${counter} = ${numberInput * counter}`;
+            item.appendChild(document.createTextNode(`${numberInput} x ${counter} = ${numberInput * counter}`))
             tab.appendChild(item);
         }
     }
