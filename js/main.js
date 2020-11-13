@@ -12,6 +12,7 @@ function multiplicationTable() {
             let item = document.createElement("tr");
             item.appendChild(document.createTextNode(`${numberInput} x ${counter} = ${numberInput * counter}`))
             tab.appendChild(item);
+            window.document.getElementById('multiplication-table').style.backgroundColor = "#FFFFFF";
         }
     }
 }
