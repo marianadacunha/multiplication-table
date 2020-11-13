@@ -14,6 +14,10 @@ body {
     margin-top: 30px;
 }
 
+h1 {
+    padding-top: 25px;
+}
+
 p {
     font-weight: 600;
 }
@@ -53,4 +57,5 @@ p {
 footer {
     margin-top: 50px;
     font-size: .8rem;
+    padding-bottom: 25px;
 }
